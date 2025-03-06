@@ -1,0 +1,15 @@
+{
+  "name": "Shopware 6 Development",
+  "image": "dockware/dev:latest",
+  "forwardPorts": [80, 3306, 22, 9998, 9999],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "felixfbecker.php-debug",
+    "bmewburn.vscode-intelephense-client",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "dbaeumer.vscode-eslint"
+  ],
+  "remoteUser": "root"
+}
